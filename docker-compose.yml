@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   substrate-node:
-    image: taulepton/reef:v10
+    image: eteissonniere/edgeware:latest
     volumes:
       - substrate-data:/data
     ports:
